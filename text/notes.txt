@@ -1,0 +1,40 @@
+what is low level language ? and what are other levels and their respective meanings ?
+---- ANS
+*Low-level :::: languages (Assembly, Machine Code) are used for direct hardware manipulation.
+*High-level :::: languages (Python, Java) are easier to use and more abstracted from the hardware.
+*Intermediate languages (IL) :::: act as a bridge between high-level languages and machine code.
+
+
+differences between c and cpp?
+
+CPP Has : OOPS , Templates , Extensive Library , Automatic Memory Management , Robust Multithreading ,High Performance With Careful Use.
+
+->> Other Things Are Almost The Same
+
+
+Life Cycle
+[Source Code] → [Compiler] → [Object Files] → [Linker] → [Executable] → [Run]
+
+1.Compilation: Source code → Assembly language (via compiler).
+
+2.Linking: Object files + libraries → Executable file.
+
+3.Execution: Executable runs on the CPU.
+
+4.Termination: Program ends, resources released.
+
+// For Input Output We Use <iostream>
+// It Is A Header File That Contain function declarations and definitions.
+<---- Inlcude Steps That Code Goes Through To Finally run Commands (how libraries get added with function definition and all the other stuff) then Compilation stage (before creating any machine code it will check for any syntax errors) then going to loaders+linkers to get converted in machine code (.exe creation)   ---->
+
+// Either Use Online Compiler Or Use RUN Extension Or MINGW 🗿
+// Checking If Compiler Is Installed in Vscode Properly 🤧
+
+
+<---- why we use "using namespace std" ---->
+
+// how cin and cout work and how we dont need format specifiers in cpp like we did in c language
+
+// time efficiency when using printf + scanf OR cin + cout
+why we use printf scanf in competitive programming rather than using cin and cout 
+// differences between predefined and user defined data structures 
