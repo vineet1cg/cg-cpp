@@ -9,7 +9,6 @@ public:
     string name;
     int age;
     char section;
-
     /*
         Constructor
         - A constructor is a special member function that is automatically
@@ -37,7 +36,6 @@ public:
     {
         cout << "Destructor called for " << this->name << endl;
     }
-
     // Member function to print student data
     void printData()
     {
@@ -84,6 +82,5 @@ int main()
         - createObj() finishes → 'func' is destroyed.
         - main() finishes → 'student1' and 'Bhondu' are destroyed.
     */
-
     return 0;
 }
