@@ -6,7 +6,7 @@ using namespace std;
 class CreateObj
 {
 
-public:
+public:        
     //  Data member.... but with static keyword
 
     static int count;
